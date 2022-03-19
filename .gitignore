@@ -1,0 +1,230 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package herencia2;
+
+/**
+ *
+ * @author Antonio
+ */
+public class estudiante extends personas{
+    private String Programa;
+    private int Anio;
+    private double Tarifa;
+    
+    public estudiante(){
+    }
+    
+    public estudiante(String Programa, int Anio, double Tarifa){
+        this.Programa = Programa;
+        this.Anio = Anio;
+        this.Tarifa = Tarifa;
+       
+    }
+    public String getprograma(){
+    return Programa;
+    }
+    
+    public int getanio(){
+    return Anio;
+    }
+    
+    public double gettarifa(){
+    return Tarifa;
+    }
+    
+    public void setprograma(String Programa){
+    this.Programa = Programa;
+    }
+    
+    public void setanio(int Anio){
+    this.Anio = Anio;
+    }
+    
+    public void settarifa(double Tarifa){
+    this.Tarifa = Tarifa;
+    System.out.println();
+    }
+}
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package herencia2;
+
+/**
+ *
+ * @author Antonio
+ */
+public class personas {
+    private String Nombre;
+    private String Direccion;
+    
+    public personas(){
+    }
+    
+    public personas(String Nombre, String Direccion){
+    this.Nombre = Nombre;
+    this.Direccion = Direccion;
+    }
+    
+    public String getnombres(){
+    return Nombre;
+    }
+    
+    public String getdireccion(){
+    return Direccion;
+    }
+    
+    public void setnombres(String Nombre){
+    this.Nombre = Nombre;
+    }
+    
+    public void setdireccion(String Direccion){
+    this.Direccion = Direccion;
+    }
+    
+}
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package herencia2;
+
+/**
+ *
+ * @author Antonio
+ */
+public class staff extends personas{
+    private String Escuela;
+    private double Pago;
+    
+    
+    public staff(){
+    }
+    
+    public staff(String Escuela, double Pago){
+    this.Escuela = Escuela;
+    this.Pago = Pago;
+    }
+    
+    public String getescuela(){
+    return Escuela;
+    }
+    
+    public double getpago(){
+    return Pago;
+    }
+    
+    public void setescuela(String Escuela){
+    this.Escuela = Escuela;
+    }
+    
+    public void setpago(double Pago){
+    this.Pago = Pago;
+    }
+    
+ 
+}
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package herencia3;
+
+/**
+ *
+ * @author Antonio
+ */
+public class Employee {
+    private String Name;
+    private int Age;
+    private double Salary;
+    
+    public Employee(){
+    }
+    
+    public Employee(String Name,int Age,double Salary){
+        this.Name = Name;
+        this.Age = Age;
+        this.Salary = Salary;
+    }
+    
+    public String getname(){
+    return Name;
+    }
+    
+    public int getage(){
+    return Age;
+    }
+    
+     public double getsalary(){
+    return Salary;
+    }
+    
+    public void setname(String Name){
+    this.Name = Name;
+    }
+    
+    public void setage(int Age){
+    this.Age = Age;
+    }
+    
+    public void setsalary(double Salary){
+    this.Salary = Salary;
+    }
+}
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package herencia3;
+
+/**
+ *
+ * @author Antonio
+ */
+public class databasepro {
+    private String Databasetool;
+    
+    public databasepro(){
+    }
+    public databasepro(String Databasetool){
+    this.Databasetool = Databasetool;
+    }
+    public String getdatabasetool(){
+    return Databasetool;
+    }
+    
+    public void setdatabasetool(String Databasetool){
+    this.Databasetool = Databasetool;
+    }
+}
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package herencia3;
+
+/**
+ *
+ * @author 42107
+ */
+public class programmer {
+    private String Language;
+    
+    public programmer(){
+    }
+    public programmer(String Language){
+    this.Language = Language;
+    }
+    public String getlanguage(){
+    return Language;
+    }
+    
+    public void setlanguage(String Language){
+    this.Language = Language;
+    }
+}
